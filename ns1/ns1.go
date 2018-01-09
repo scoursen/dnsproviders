@@ -17,7 +17,7 @@ func init() {
 // len(0): use credentials from environment
 // len(1): credentials[0] = API key
 
-func NewDNSProvider(credentials ...string) (acme.ChallengeProvider, error) {
+func NewDNSProvider(credentials ...string) (caddytls.ChallengeProvider, error) {
 	switch len(credentials) {
 	case 0:
 		return ns1.NewDNSProvider()
