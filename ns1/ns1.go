@@ -12,7 +12,7 @@ func init() {
 	caddytls.RegisterDNSProvider("ns1", NewDNSProvider)
 }
 
-// NewDNSProvider returns a new MyProvider DNS challenge provider.
+// NewDNSProvider returns a new ns1.DNSProvider DNS challenge provider.
 // The credentials are interpreted as follows:
 //
 // len(0): use credentials from environment
