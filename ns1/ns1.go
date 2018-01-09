@@ -4,7 +4,6 @@ import (
 	"errors"
 
 	"github.com/mholt/caddy/caddytls"
-	"github.com/xenolf/lego/acme"
 	"github.com/xenolf/lego/providers/dns/ns1"
 )
 
